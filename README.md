@@ -25,7 +25,7 @@ Odpowiedź:  Zamiana kolejność podłączenia rezystora nie ma znaczenia, natom
 
 ## Zadanie 2-2-3:
 Pytanie:    *Czy każdy rodzaj pętli jest wymienny (zawsze można zastąpić jedną konstrukcję drugą)?*  
-Odpowiedź:  ...
+Odpowiedź:  Musi być zachowana kolejność. Polecenia wykonywane są od góry do dołu. 
 
 ## Zadanie 2-2-4:
 Pytanie:    *Jak wpływa na działanie układu zwiększenie wartości stałej LED_T (np. do 100 ms)?*  
