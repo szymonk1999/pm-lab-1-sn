@@ -21,7 +21,7 @@ Odpowiedź:  Dioda zaczyna migać.
 
 ## Zadanie 2-2-2:
 Pytanie:    *Czy zamienienie kolejności podłączenia diody LED i rezystora ma znaczenie?*  
-Odpowiedź:  ...
+Odpowiedź:  Zamiana kolejność podłączenia rezystora nie ma znaczenia, natomiast dla diody już tak. Diioda miga.
 
 ## Zadanie 2-2-3:
 Pytanie:    *Czy każdy rodzaj pętli jest wymienny (zawsze można zastąpić jedną konstrukcję drugą)?*  
