@@ -37,17 +37,17 @@ Odpowiedź:  Powinny adoptować długość zapalenia swiateł do zagęszczenia r
 
 ## Zadanie 2-3-2:
 Pytanie:    *Czy możliwe jest sterowanie stanem niskim (LOW) diod LED?*  
-Odpowiedź:  ...
+Odpowiedź:  By sprawdzić działanie sterowania stanem niskim diode odwróciłem połączenia diody w programie Tinkercad (dioda dostawała 5v porzez rezystor bezposrenio z płtyki, a masa diody pochodziła z pinu 13). Po wgraniu programu przykładowego programu blink, zauwazyłem ze pulsacja diody jest mało stabilna, ale odbywa sie. 
 
 # Zadania rozszerzajace
 ## Zadanie 3-1:
 Pytanie:    *Określić wady i zalety operowania na rejestrach mikrokontrolera.*  
-Odpowiedź:  ...
+Odpowiedź:  Operacje wykonywane na rejestrach wykonuja sie szybciej niz z danych RAM-u.
 
 ## Zadanie 3-2:
 Pytanie:    *Jaka jest treść nadawnaego tekstu? Proszę zapisać postać jawną i zakodowaną.*  
-Odpowiedź:  ...
+Odpowiedź:  nadawany teskt "szymon", zakodowany "... --.. -.-- -- --- -."   Przy tworzeniu kodu, bazowałem na widzy z internetu - poprawiłem niedziałający program, poprzez zdefiniowanie wszystkiech niezbędnych funkcji w nagłówku. Dane do zakodowania wysyła się po serialu, bezpośrenio na płytke, zakodowany kod możemy zaobserwować na płytce. 
 
 ## Zadanie 3-3:
 Pytanie:    *Kiedy programowe generowanie sygnału PWM ma zastosowanie i jakie pociąga to za sobą konsekwencje.*  
-Odpowiedź:  ...
+Odpowiedź:  Może być wykorszystywane przy np sterowaniu silnikiem lub sterowaniu jasnościa diody. Program opeira sie o funkcji analogWrite(Pin, Value), która lepiej sie sprawdza w tym zadaniu, od tej zaproponowanej we skrypcie. Konieczne jest użycie portu PWM w arduino. Kazda płytka ma inna częstotliwaośc PWM, dla Arduino UNO jest to 976Hz.
