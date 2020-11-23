@@ -29,11 +29,11 @@ Odpowiedź:  Musi być zachowana kolejność. Polecenia wykonywane są od góry 
 
 ## Zadanie 2-2-4:
 Pytanie:    *Jak wpływa na działanie układu zwiększenie wartości stałej LED_T (np. do 100 ms)?*  
-Odpowiedź:  ...
+Odpowiedź:  Nie ma takiej stałej. 
 
 ## Zadanie 2-3-1:
 Pytanie:    *Jakie niedogodności z punktu widzenia kierowców są obecne w programie sterującym światłami?*  
-Odpowiedź:  ...
+Odpowiedź:  Powinny adoptować długość zapalenia swiateł do zagęszczenia ruchu. Wymagało by to analizy obrazu z kamery (np poprzez nvidia tx2) i przesłania danych korygujacych czas zapalania do arduino. 
 
 ## Zadanie 2-3-2:
 Pytanie:    *Czy możliwe jest sterowanie stanem niskim (LOW) diod LED?*  
