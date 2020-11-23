@@ -13,7 +13,11 @@ Grupa studencka:            WELE18DE1S1
 # Pytania do zadań z instrukcji
 ## Zadanie 2-2-1a:
 Pytanie:    *Jaki jest efekt działania programu?*  
-Odpowiedź:  ...
+Odpowiedź:  Doida na płytce zaczyna świecić 
+
+## Zadanie 2-2-1b:
+Pytanie:    *Jaki jest efekt działania programu?*  
+Odpowiedź:  Dioda zaczyna migać. 
 
 ## Zadanie 2-2-2:
 Pytanie:    *Czy zamienienie kolejności podłączenia diody LED i rezystora ma znaczenie?*  
